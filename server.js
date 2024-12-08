@@ -4,6 +4,11 @@ const port = 3000;
 
 app.use(express.json());
 
+// Define a route for the root URL
+app.get('/', (req, res) => {
+    res.send('Welcome to the Airbnb Clone API');
+});
+
 // Sample data
 let listings = [
     { id: 1, name: 'Cozy Cottage', location: 'Countryside', price: 100 },
