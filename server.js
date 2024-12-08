@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Define a route for the root URL
 app.get('/', (req, res) => {
-    res.send('Welcome to the Airbnb Clone API');
+    res.send('Welcome to the Airbnb Clone API! Explore amazing listings and find your perfect getaway.');
 });
 
 // Sample data
